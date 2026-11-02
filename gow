@@ -1,0 +1,5 @@
+#!/bin/sh
+# go.jar wrapper: the one command a Go mod project needs. Requires Java 25.
+cd "$(dirname "$0")" || exit 1
+if [ -n "$JAVA_HOME" ]; then JAVA="$JAVA_HOME/bin/java"; else JAVA=java; fi
+exec "$JAVA" -jar go.jar "$@"

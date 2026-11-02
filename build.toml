@@ -1,0 +1,17 @@
+[project]
+id = "gostats"
+version = "0.1.0"
+
+[minecraft]
+version = "26.3"
+loader = "0.20.1"
+fabric_api = "0.165.0+26.3"
+# The GoCraft mod jar that runServer and runClient install, built in the sibling repo.
+gocraft_jar = "../gocraft/build/libs/gocraft-0.1.0.jar"
+
+[go]
+# "system" uses Go from PATH. A version such as "1.26.1" is downloaded automatically.
+version = "system"
+# Each target becomes natives/<target>/ in the .gomod. Anything other than this machine's
+# platform is cross-compiled with an automatically downloaded Zig.
+targets = ["linux-amd64"]
