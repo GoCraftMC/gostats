@@ -4,7 +4,7 @@
   "name": "GoStats",
   "description": "Counts the blocks each player breaks, with a command, an item and a live web scoreboard. Written in Go.",
   "authors": ["The GoCraft Authors"],
-  "license": "BSD-4-Clause",
+  "license": "BSD-3-Clause",
   "environment": "*",
   "depends": {
     "minecraft": ">=${minecraft_version}",

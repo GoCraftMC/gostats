@@ -19,4 +19,4 @@ shows them through a command, an item and a live web scoreboard.
 
 ## License
 
-BSD-4-Clause. This product includes software developed by The GoCraft Authors.
+BSD-3-Clause.
